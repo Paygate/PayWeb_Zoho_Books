@@ -1,14 +1,24 @@
 # PayWeb_Zoho_Books
-## PayGate Zoho Books method
 
-This is the PayGate PayWeb3 method for Zoho Books. Please feel free to contact the PayGate support team at support@paygate.co.za should you require any assistance.
+## Paygate Zoho
+
+This is the Paygate integration for Zoho. Please feel free to contact the Payfast support team at
+support@payfast.help should you require any assistance.
 
 ## Installation
-[![How To Setup PayGate PayWeb for Zoho Books](https://appinlet.com/wp-content/uploads/2021/08/How-To-Setup-PayGate-PayWeb-for-Zoho-Books.jpg)](https://www.youtube.com/watch?v=f-SH-PAUgmw "How To Setup PayGate PayWeb for Zoho Books")
 
-Please navigate to the [releases page](https://github.com/PayGate/PayWeb_Zoho_Books/releases), download the latest release document. You will then be able to follow the integration guide PDF.
+1. **Setup Paygate for Zoho**
+    - Navigate to [https://checkout.dpo.store/za/zb/gateway/](https://checkout.dpo.store/za/zb/gateway/) and register a
+      new user account.
+    - Login using your new user account, then click **Add Record**.
+    - Add your **Merchant Account** (Paygate ID), **Merchant Key** (Encryption Key), and **Zoho Key** (which should be
+      the same as your **Merchant Key**) and click **Add Record**.
 
-## About PayWeb
+2. **Setup Zoho for Paygate**
+    - Login to your Zoho account, then navigate
+      to [https://marketplace.zoho.com/app/books/paygate-for-zoho-books](https://marketplace.zoho.com/app/books/paygate-for-zoho-books)
+    - Click the **Select Organization** drop down, then select your organization and click **Install Extension**.
 
-[PayWeb](https://www.paygate.co.za/paygate-products/payweb/) is an easy and secure way to accept payments online. The Customer makes payments using [PayGate’s](https://www.paygate.co.za/) secure hosted payment page. PayWeb is mobile-friendly making it compatible across all mobile devices. By selecting PayWeb, the Merchant gets immediate access to an array of Payment Methods, making it easier to get paid.
-
+3. **Configure the Integration**
+    - Go to **Settings** -> **Online Payments** and then click **Edit Settings** under **Paygate**.
+    - Enter your **Paygate ID** and **Encryption Key**, then click **Save**.
