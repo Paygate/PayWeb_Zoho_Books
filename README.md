@@ -20,5 +20,5 @@ support@payfast.help should you require any assistance.
     - Click the **Select Organization** drop down, then select your organization and click **Install Extension**.
 
 3. **Configure the Integration**
-    - Go to **Settings** -> **Online Payments** and then click **Edit Settings** under **Paygate**.
+    - Go to **Settings** -> **Online Payments** -> **Payment Gateways** and then click **Edit Settings** under **Paygate**.
     - Enter your **Paygate ID** and **Encryption Key**, then click **Save**.
